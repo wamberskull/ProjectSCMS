@@ -38,7 +38,6 @@ public class TelaPrincipalAdmin extends javax.swing.JFrame {
         jMenuCadastrar = new javax.swing.JMenu();
         jMenuItemSetor = new javax.swing.JMenuItem();
         jMenuItemMaterial = new javax.swing.JMenuItem();
-        jMenuFerramentas = new javax.swing.JMenu();
         jMenuRelatorios = new javax.swing.JMenu();
         jMenuSobre = new javax.swing.JMenu();
 
@@ -90,9 +89,6 @@ public class TelaPrincipalAdmin extends javax.swing.JFrame {
         jMenuCadastrar.add(jMenuItemMaterial);
 
         jMenuBar1.add(jMenuCadastrar);
-
-        jMenuFerramentas.setText("Ferramentas");
-        jMenuBar1.add(jMenuFerramentas);
 
         jMenuRelatorios.setText("Relatórios");
         jMenuBar1.add(jMenuRelatorios);
@@ -166,7 +162,6 @@ public class TelaPrincipalAdmin extends javax.swing.JFrame {
     private javax.swing.JMenu jMenuAdministrador;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenu jMenuCadastrar;
-    private javax.swing.JMenu jMenuFerramentas;
     private javax.swing.JMenuItem jMenuItemExcluirUsuario;
     private javax.swing.JMenuItem jMenuItemIncluirUsuario;
     private javax.swing.JMenuItem jMenuItemMaterial;

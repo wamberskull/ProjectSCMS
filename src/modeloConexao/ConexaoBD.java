@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package controle;
+package modeloConexao;
 
 import java.sql.*;
 import java.util.logging.Level;
@@ -27,10 +27,20 @@ public void conexao(){
     try {
          System.setProperty("jdbc:Drivers", driver);
          con=DriverManager.getConnection(caminho, usuario, senha);
-         JOptionPane.showMessageDialog(null,"Conexão efetuada com sucesso!");
+         
      } catch (SQLException ex) {
             JOptionPane.showMessageDialog(null,"Erro ao se conectar com o banco de dados!\n"+ex.getMessage());
         }
+}
+
+public void executSql(String sql){
+        try {
+            scms = con.createStatement(resp.TYPE_SCROLL_INSENSITIVE,resp.CONCUR_READ_ONLY);
+            resp = scms.executeQuery(sql);
+        } catch (SQLException ex) {
+            JOptionPane.showMessageDialog(null,"Erro executSql!\n"+ex.getMessage());
+        }
+    
 }
 
 public void desconecta (){

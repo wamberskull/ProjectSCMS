@@ -3,13 +3,16 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/wamberto/Documents/NetBeansProjects/ProjectSCMS/src/controle/ConexaoBD.java</file>
+            <file>file:/C:/Users/wamberto/Documents/NetBeansProjects/ProjectSCMS/src/projectscms/FormMaterial.java</file>
+            <file>file:/C:/Users/wamberto/Documents/NetBeansProjects/ProjectSCMS/src/modeloDao/DaoSetor.java</file>
             <file>file:/C:/Users/wamberto/Documents/NetBeansProjects/ProjectSCMS/src/projectscms/FormExcluiUsuario.java</file>
             <file>file:/C:/Users/wamberto/Documents/NetBeansProjects/ProjectSCMS/src/projectscms/TelaPrincipalAdmin.java</file>
+            <file>file:/C:/Users/wamberto/Documents/NetBeansProjects/ProjectSCMS/src/modeloConexao/ConexaoBD.java</file>
             <file>file:/C:/Users/wamberto/Documents/NetBeansProjects/ProjectSCMS/src/projectscms/TelaLogin.java</file>
-            <file>file:/C:/Users/wamberto/Documents/NetBeansProjects/ProjectSCMS/src/projectscms/ProjectSCMS.java</file>
             <file>file:/C:/Users/wamberto/Documents/NetBeansProjects/ProjectSCMS/src/projectscms/FormIncluiUsuario.java</file>
+            <file>file:/C:/Users/wamberto/Documents/NetBeansProjects/ProjectSCMS/src/modelo/beans/ModMaterial.java</file>
             <file>file:/C:/Users/wamberto/Documents/NetBeansProjects/ProjectSCMS/src/projectscms/FormSetor.java</file>
+            <file>file:/C:/Users/wamberto/Documents/NetBeansProjects/ProjectSCMS/src/modelo/beans/ModSetor.java</file>
         </group>
     </open-files>
 </project-private>

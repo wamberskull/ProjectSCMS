@@ -5,7 +5,7 @@
  */
 package projectscms;
 
-import controle.ConexaoBD;
+import modeloConexao.ConexaoBD;
 
 /**
  *
